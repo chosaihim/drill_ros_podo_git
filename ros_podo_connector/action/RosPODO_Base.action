@@ -1,0 +1,25 @@
+#goal definition
+int32 wheelmove_cmd
+float64 MoveX
+float64 MoveY
+float64 ThetaDeg
+float64 VelX
+float64 VelY
+float64 VelTheta
+---
+#result definition
+float64 MoveX
+float64 MoveY
+float64 ThetaDeg
+float64 VelX
+float64 VelY
+float64 VelTheta
+int32 result_flag
+---
+#feedback
+float64 MoveX
+float64 MoveY
+float64 ThetaDeg
+float64 VelX
+float64 VelY
+float64 VelTheta

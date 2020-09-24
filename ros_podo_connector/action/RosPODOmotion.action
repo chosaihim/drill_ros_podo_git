@@ -1,0 +1,14 @@
+#goal definition
+int32 command
+int32 mode
+int32 parameter
+JointData[18] joint_ref
+WbikData[5] wbik_ref
+---
+#result definition
+JointData[18] joint_ref
+WbikData[5] wbik_ref
+---
+#feedback
+JointData[18] joint_ref
+WbikData[5] wbik_ref

@@ -1,0 +1,12 @@
+#goal definition
+int32 traj_cmd
+int32 num_points
+string planGroup
+JointDataSet[100] via_point
+---
+#result definition
+int32 result_flag
+JointDataSet[100] via_point
+---
+#feedback
+JointDataSet[100] via_point

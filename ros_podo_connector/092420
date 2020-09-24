@@ -1,0 +1,9 @@
+ros_podo_connector DRILL EDITION
+
+2020/09/24
+- cmd 7 added for drilling
+  - cmd 7 sends hands x,y,z position to PODO, but doesn't move the robot immediately.
+- base command moves robot immediately.
+- parameters can be used as position inputs.
+
+

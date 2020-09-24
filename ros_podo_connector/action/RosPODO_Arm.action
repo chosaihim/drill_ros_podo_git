@@ -1,0 +1,13 @@
+#goal definition
+int32 jointmove_cmd
+JointData[18] joint_ref
+WbikData[6] wbik_ref
+---
+#result definition
+JointData[18] joint_ref
+WbikData[6] wbik_ref
+int32 result_flag
+---
+#feedback
+JointData[18] joint_ref
+WbikData[6] wbik_ref

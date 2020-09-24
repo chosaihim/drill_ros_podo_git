@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<package>
+  <name>ros_podo_connector</name>
+  <version>0.1.0</version>
+  <description>The ros_podo_connector package</description>
+
+  <maintainer email="yjs0497@kaist.ac.kr">JeongsooLim</maintainer>
+  <license>BSD</license>
+  <url type="website">http://wiki.ros.org/drc_hubo</url>
+  <author email="yjs0497@kaist.ac.kr">JeongsooLim</author>
+
+
+  <!-- The *_depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <!-- Examples: -->
+  <!-- Use build_depend for packages you need at compile time: -->
+  <!--   <build_depend>message_generation</build_depend> -->
+  <!-- Use buildtool_depend for build tool packages: -->
+  <!--   <buildtool_depend>catkin</buildtool_depend> -->
+  <!-- Use run_depend for packages you need at runtime: -->
+  <!--   <run_depend>message_runtime</run_depend> -->
+  <!-- Use test_depend for packages you need only for testing: -->
+  <!--   <test_depend>gtest</test_depend> -->
+  <buildtool_depend>catkin</buildtool_depend>  
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>message_generation</run_depend>
+
+
+  <build_depend>nav_msgs</build_depend>
+  <run_depend>nav_msgs</run_depend>
+
+
+  ##MOVEIT INTERFACE
+  <build_depend>pluginlib</build_depend>
+  <build_depend>eigen</build_depend>
+  <build_depend>moveit_core</build_depend>
+  <build_depend>moveit_ros_planning</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>moveit_ros_perception</build_depend>
+  <build_depend>interactive_markers</build_depend>
+  <build_depend>geometric_shapes</build_depend>
+  <build_depend>moveit_visual_tools</build_depend>
+  <build_depend>rviz_visual_tools</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>rosbag</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  <build_depend>tf2_eigen</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
+
+  <run_depend>panda_moveit_config</run_depend>
+  <run_depend>pluginlib</run_depend>
+  <run_depend>moveit_core</run_depend>
+  <run_depend>moveit_commander</run_depend>
+  <run_depend>moveit_fake_controller_manager</run_depend>
+  <run_depend>moveit_ros_planning_interface</run_depend>
+  <run_depend>moveit_ros_perception</run_depend>
+  <run_depend>interactive_markers</run_depend>
+  <run_depend>moveit_visual_tools</run_depend>
+  <run_depend>rviz_visual_tools</run_depend>
+  <run_depend>joy</run_depend>
+  <run_depend>pcl_ros</run_depend>
+  <run_depend>pcl_conversions</run_depend>
+  <run_depend>rosbag</run_depend>
+  <run_depend>tf2_ros</run_depend>
+  <run_depend>tf2_eigen</run_depend>
+  <run_depend>tf2_geometry_msgs</run_depend>
+
+  <test_depend>moveit_resources</test_depend>
+  <test_depend>rosunit</test_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

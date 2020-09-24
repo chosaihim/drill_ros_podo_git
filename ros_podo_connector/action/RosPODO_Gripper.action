@@ -1,0 +1,11 @@
+#goal definition
+int32 grippermove_cmd
+int32 gripper_parameter
+int32 mode
+---
+#result definition
+int32 mode
+int32 result_flag
+---
+#feedback
+int32 mode
